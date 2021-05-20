@@ -1,4 +1,5 @@
 FROM alpine:latest
+LABEL org.opencontainers.image.source https://github.com/sparkfabrik/spark-mysqldup
 
 WORKDIR /workspace
 ARG ACTINGUSER=1000
